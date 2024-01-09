@@ -4,8 +4,8 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 export const Header = () => {
   return (
-    <div className=" flex justify-between p-5  flex-1 ">
-      <div id="first" className="flex justify-center items-center ">
+    <div className=" flex  justify-between items-center flex-1 p-2">
+      <div id="first" className="flex justify-center items-center">
         <h3 className="ml-1.5">Payouts</h3>
         <CiCircleQuestion className="ml-1.5 " />
         <div className=" flex ">
@@ -13,7 +13,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div id="search" className="flex ml-1.5  ">
+      <div id="search" className="flex  ml-4    ">
         <label className="flex w-max  ">
           <input
             className=" flex p-1 w-96 border-none outline-none   bg-gray-100"
